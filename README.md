@@ -123,5 +123,58 @@ run using the same settings mentioned above
 
 ## Analysis of the results
 Results from the algorithms are described below in
+Table 1 which shows Spearman’s score across various
+features and algorithms.
 
 ![speaman](https://user-images.githubusercontent.com/31949367/81080434-9d401180-8ee8-11ea-8e87-f4add6753fca.PNG)
+> Table 1 - Spearman’s score
+
+Captions work best with this problem and when
+combined with other two features it provides better
+results every time. Linear Regression without
+regularization performs poorly.
+
+## Conclusion
+Overall short-term memorability scores are higher
+when features are combined, and Rigid Regression gives
+the best result. As for the long-term memorability, SVR
+with all three features provide the best score. Features
+provided for this project are pre-extracted from the entire
+dataset (8000 videos) and most of the features provide
+no direction in terms of memorability according to [4].
+In order to improve upon this, scaling up various feature
+is necessary to match the human cognition level.
+
+### References
+[1] Rachit Dubey, Joshua Peterson, Aditya Khosla,
+Ming-Hsuan Yang, Bernard Ghanem, "What Makes
+an Object Memorable?," in 2015 IEEE International
+Conference on Computer Vision (ICCV), Santiago,
+Chile, 13 Dec 2015.
+[2] Aditya Khosla, Akhil S. Raju, Antonio Torralba,
+Aude Oliva, "Understanding and Predicting Image
+Memorability at a Large Scale".
+[3] Rachit Dubey, Joshua Peterson, Aditya Khosla,
+Ming-Hsuan Yang, Bernard Ghanem, "What Makes
+an Object Memorable?," in 2015 IEEE International
+Conference on Computer Vision (ICCV), Santiago,
+Chile, 13 Dec 2015.
+[4] Sathisha Basavaraju, Paritosh Mittal, Arijit Sur,
+"Image Memorability: The Role of Depth and
+Motion," in 2018 25th IEEE International
+Conference on Image Processing (ICIP), Athens,
+Greece, 06 September 2018.
+[5] Markopoulos, Gerry, "Distinctiveness and memory,"
+New York, 2007.
+[6] D. Norris, "Short-Term Memory and Long-Term
+Memory are Still Different," 2017 May 22.
+[7] Tran, D., Bourdev, L.D., Fergus, R., Torresani, L.
+and Paluri, M., 2014. C3D: generic features for video
+analysis. CoRR, abs/1412.0767, 2(7), p.8.
+[8] Raschka, S. and Mirjalili, V., 2019. Python Machine
+Learning: Machine Learning and Deep Learning
+with Python, scikit-learn, and TensorFlow 2. Packt
+Publishing Ltd.
+[9] Determining Memorability: How Celebrity
+Association Increases Brand Recall:[available
+online]https://medium.com/spottedmedia/determining-memorability-how-celebrityassociation-increases-brand-recall-a83ae8fd3f8f
