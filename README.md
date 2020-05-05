@@ -124,3 +124,4 @@ run using the same settings mentioned above
 ## Analysis of the results
 Results from the algorithms are described below in
 
+![speaman](https://user-images.githubusercontent.com/31949367/81080434-9d401180-8ee8-11ea-8e87-f4add6753fca.PNG)
